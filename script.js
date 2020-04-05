@@ -65,7 +65,7 @@ function searchAndRender(event){
         return e.name
           .toLowerCase()
           .trim()
-          .startsWith(event.target.value.toLowerCase.trim());
+          .startsWith(event.target.value.toLowerCase().trim());
       });
       renderData(result);
 }
